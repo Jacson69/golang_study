@@ -1,0 +1,10 @@
+{"client_ip":"127.0.0.1","level":"info","msg":"","req_method":"GET","req_url":"/logrus","status_code":404,"time":"2023-05-19 16:14:43"}
+{"client_ip":"127.0.0.1","level":"info","msg":"","req_method":"GET","req_url":"/favicon.ico","status_code":404,"time":"2023-05-19 16:14:43"}
+{"client_ip":"127.0.0.1","level":"info","msg":"","req_method":"GET","req_url":"/logrus2","status_code":200,"time":"2023-05-19 16:14:59"}
+{"client_ip":"127.0.0.1","level":"info","msg":"","req_method":"GET","req_url":"/logrus2","status_code":200,"time":"2023-05-19 16:15:08"}
+{"client_ip":"127.0.0.1","level":"info","msg":"","req_method":"GET","req_url":"/logrus2","status_code":200,"time":"2023-05-19 16:15:09"}
+{"client_ip":"127.0.0.1","level":"info","msg":"","req_method":"GET","req_url":"/logrus2","status_code":200,"time":"2023-05-19 16:15:09"}
+{"client_ip":"127.0.0.1","level":"info","msg":"","req_method":"GET","req_url":"/logrus2","status_code":200,"time":"2023-05-19 16:15:09"}
+{"client_ip":"127.0.0.1","level":"info","msg":"","req_method":"GET","req_url":"/logrus2","status_code":200,"time":"2023-05-19 16:15:10"}
+{"client_ip":"127.0.0.1","level":"info","msg":"","req_method":"GET","req_url":"/logrus2","status_code":200,"time":"2023-05-19 16:15:10"}
+{"client_ip":"127.0.0.1","level":"info","msg":"","req_method":"GET","req_url":"/logrus2","status_code":200,"time":"2023-05-19 16:15:10"}

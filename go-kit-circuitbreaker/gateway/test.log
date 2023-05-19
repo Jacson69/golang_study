@@ -1,0 +1,5 @@
+ts=2023-05-15T03:02:46.3229076Z caller=main.go:155 transport=HTTP addr=9090
+ts=2023-05-15T03:02:46.3229076Z caller=main.go:143 hystrixStreamHandler=HTTP addr=9010
+ts=2023-05-15T03:04:25.765503Z caller=router.go:74 serviceid=arithmetic6852910d-ec23-4339-a336-11c6548fd41a
+ts=2023-05-15T03:04:50.8142671Z caller=router.go:74 serviceid=arithmetic64c03124-79b9-42a2-b61a-746b79b57ab0
+ts=2023-05-15T03:04:55.2487667Z caller=main.go:160 exit=interrupt
