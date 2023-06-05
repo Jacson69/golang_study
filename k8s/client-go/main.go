@@ -57,7 +57,8 @@ func ClientSet() {
 	}
 }
 
-// DynamicClient的特点就是除了可以使用k8s内置资源外，还可以使用CRD资源。dynamicClient的原理就是传入的资源数据都是使用map[string]interface{}结构。dynamicClient内部还是restClient.
+//DynamicClient的特点就是除了可以使用k8s内置资源外，还可以使用CRD资源。dynamicClient的原理就是传入的资源数据都是使用map[string]interface{}结构。dynamicClient内部还是restClient.
+
 func DynamicClient() {
 	config, err := clientcmd.BuildConfigFromFlags("", clientcmd.RecommendedHomeFile)
 	if err != nil {
@@ -120,6 +121,7 @@ func DynamicClient() {
 }
 
 // DiscoveryClient是发现客户端，主要用于发现k8s api-server所支持的资源组、资源版本及资源信息。
+
 func DisCoveryClient() {
 	config, err := clientcmd.BuildConfigFromFlags("", clientcmd.RecommendedHomeFile)
 	if err != nil {
@@ -138,8 +140,8 @@ func DisCoveryClient() {
 	}
 }
 func main() {
-	//RESTClient()
+	RESTClient()
 	//ClientSet()
 	//DynamicClient()
-	DisCoveryClient()
+	//DisCoveryClient()
 }
